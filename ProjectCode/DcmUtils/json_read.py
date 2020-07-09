@@ -5,10 +5,10 @@ import SimpleITK as sitk
 import pandas as pd
 from dcm_read import dicom_metainfo,dicom2array
 
-# train_path=r"C:\Users\李梓桦\Desktop\脊柱疾病检测\dataset\train"
-# json_path=r"C:\Users\李梓桦\Desktop\脊柱疾病检测\dataset\lumbar_train51_annotation.json"
-train_path=r"C:\Users\Administrator\Desktop\lumbar\dataset\lumbar_train51\train"
-json_path=r"C:\Users\Administrator\Desktop\lumbar\dataset\lumbar_train51\lumbar_train51_annotation.json"
+train_path=r"..\..\dataset\lumbar_train51\train"
+json_path=r"..\..\dataset\lumbar_train51\lumbar_train51_annotation.json"
+# train_path=r"C:\Users\Administrator\Desktop\lumbar\dataset\lumbar_train51\train"
+# json_path=r"C:\Users\Administrator\Desktop\lumbar\dataset\lumbar_train51\lumbar_train51_annotation.json"
 
 def get_info(train_path,json_path):
     annotation_info = pd.DataFrame(columns=('studyUid','seriesUid','instanceUid','annotation'))
