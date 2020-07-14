@@ -1,6 +1,8 @@
 # import json
 # import glob
 # import pydicom as idcom
+import torch
+
 #
 # # https://simpleitk.readthedocs.io/en/master/link_DicomConvert_docs.html
 # data_path=glob.glob('..\src\*.json')

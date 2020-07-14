@@ -105,18 +105,18 @@ def DataLabelGenerator(DATA_PATH,JSON_PATH,idx):
     return img_arr,coord,id,disc,vertebra
 
 # 一下代码是测试，也可以做模板
-# DATA_PATH=r"C:\project\lumbar\Project-111\dataset\train_train51"
-# JSON_PATH=r"C:\project\lumbar\Project-111\dataset\train_train51\lumbar_train51_annotation.json"
+# DATA_PATH= r"C:\project\lumbar\Project-111\dataset\train_train51"
+# JSON_PATH= r"C:\project\lumbar\Project-111\dataset\train_train51/lumbar_train51_annotation.json"
 # idx=5
 # img_arr,coord,id,disc,vertebra=DataLabelGenerator(DATA_PATH,JSON_PATH,idx)
-#
+# print(coord)
+# print(img_arr)
 # plt.title("{}\'s img ".format(idx))
 # for j in coord:
 #     x,y=j
 #     plt.scatter(x,y,c='r',s=3)
 # plt.imshow(img_arr,cmap='gray')
 # plt.show()
-
 
 
 
